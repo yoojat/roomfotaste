@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import DefaultContentLayout from '../components/defaultContent';
+import styled from "styled-components";
+import DefaultContentLayout from "../components/defaultContent";
 
 const CreatorsContainer = styled.div`
   font-size: 13px;
@@ -28,7 +28,7 @@ const CreatorColRight = styled.div`
 
 const Creator = () => {
   return (
-    <DefaultContentLayout photoUrl='/creator/1.jpeg' seoTitle='만든이'>
+    <DefaultContentLayout photoUrl="/indexPhotos/28.jpg" seoTitle="만든이">
       <>
         <CreatorsContainer>
           <CreatorRow>

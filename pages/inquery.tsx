@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import DefaultContentLayout from '../components/defaultContent';
-import Divider from '../components/Divider';
+import styled from "styled-components";
+import DefaultContentLayout from "../components/defaultContent";
+import Divider from "../components/Divider";
 
 const ReserveationHeaderContainer = styled.div`
   margin-top: 30px;
@@ -83,8 +83,8 @@ const Inquery = () => {
           특별한 주인공이 되어주세요.
         </>
       }
-      photoUrl='/inquery/1.jpeg'
-      seoTitle='문의'
+      photoUrl="/indexPhotos/7.jpg"
+      seoTitle="문의"
     >
       <Spacer />
 
@@ -92,7 +92,7 @@ const Inquery = () => {
         <Divider />
         <Spacer />
 
-        <KakaoButton target={'_blank'} href='https://pf.kakao.com/_VCxnsb/chat'>
+        <KakaoButton target={"_blank"} href="https://pf.kakao.com/_VCxnsb/chat">
           카카오톡 문의
         </KakaoButton>
         {/* <NaverButton
@@ -136,8 +136,8 @@ const Inquery = () => {
                 </li>
                 <li>- 내부에 화장실이 있습니다.</li>
                 <li>
-                  - 리뷰 작성시, 차량 1대 주차 지원(영수증 확인) 혹은 30분 추가
-                  이용을 도와드립니다. 주차는 서동 제2공영주차장에 해주세요!
+                  주차는 지하주차장을 이용해주세요! 단, 주차시 미리
+                  연락부탁드립니다!
                 </li>
               </ul>
               <br />
@@ -150,36 +150,38 @@ const Inquery = () => {
               <li>- 수건, 물티슈, 드라이기(JMW), 휴지, 치약</li>
               <li> &nbsp;&nbsp;(수건은 1인 3장/1박 당 제공합니다)</li>
               <li>
-                - 손 세정제, 폼 클렌징, 샴푸, 바디워시, 컨디셔너, 샤워타월 등{' '}
+                - 손 세정제, 폼 클렌징, 샴푸, 바디워시, 컨디셔너, 샤워타월 등{" "}
               </li>
               <li>- 그릇, 수저, 냄비, 팬, 와인잔, 오프너 등</li>
-              <li>- 공기청정기, 전신거울, 무드등, 옷걸이, 인센스 스틱 등</li>
-              <li>- 냉장고, 가스렌지, 전자렌지</li>
+              <li>
+                - 공기청정기, 비데, 전신거울, 무드등, 옷걸이, 양키캔들 워머 등
+              </li>
+              <li>- 가습기, 냉장고, 가스렌지, 전자렌지</li>
             </ul>
           </ReservationContentRow>
           <ReservationContentRow>
             <ul>
-              <li>**[4층 그림의방 전용]**</li>
+              <li>**[취향의방 전용]**</li>
               <li>- 2인용 쇼파, 소형 테이블, 빔 프로젝트</li>
-              <li>- 퀸 사이즈 침대+다락방 쇼파베드(2인)</li>
-              <li>- 침구 세트(안방+다락방 / 배게,이불)</li>
+              <li>- 퀸 사이즈 침대(2인)+싱글 사이즈 침대(1인)</li>
+              <li>- 침구 세트(안방+작은방 / 배게, 이불)</li>
               <li>
-                &nbsp;&nbsp; (다락방 수납장에 쇼파베드용 침구가 있습니다.)
+                &nbsp;&nbsp; (안방 수납장과 작은방 침대 수납장에 침구류가
+                있습니다.)
               </li>
-              <li>- 아크릴 물감,색연필, 이젤, 컬러링북</li>
-              <li>- 냉장고, 가스렌지, 전자렌지</li>
+              <li>- 원피스 1~97권, 무라카미하루키 책들, 보드게임, 빈백 등</li>
             </ul>
           </ReservationContentRow>
         </ReservationContentCol>
       </ReservationContentContainer>
 
       <iframe
-        src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d814.892894912934!2d129.09660176292584!3d35.217138962793804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356893bb7df20ff1%3A0x587edfd9dd9a1fb2!2z67aA7IKw6rSR7Jet7IucIOq4iOygleq1rCDshJzrj5nroZw5MeuyiOq4uCA3!5e0!3m2!1sko!2skr!4v1640074496992!5m2!1sko!2skr'
-        width='100%'
-        height='450'
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d814.892894912934!2d129.09660176292584!3d35.217138962793804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356893bb7df20ff1%3A0x587edfd9dd9a1fb2!2z67aA7IKw6rSR7Jet7IucIOq4iOygleq1rCDshJzrj5nroZw5MeuyiOq4uCA3!5e0!3m2!1sko!2skr!4v1640074496992!5m2!1sko!2skr"
+        width="100%"
+        height="450"
         style={{ border: 0 }}
         allowFullScreen={false}
-        loading='lazy'
+        loading="lazy"
       ></iframe>
     </DefaultContentLayout>
   );
